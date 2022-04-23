@@ -1,0 +1,170 @@
+body{
+    margin-left: 350px;
+    margin-right: 350px;
+    
+    background-color: #071c37;
+
+}
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+ 
+  .topnav-right {
+    float: right;
+  }
+  .rect{
+      height: 80px;
+      width: 600px;
+      background: #72154e;
+      color: white;
+      text-align: center;
+
+  }
+  .imag{
+      width: 200px;
+      clip-path: circle();
+  }
+  .imagi{
+    width: 200px;
+    clip-path: circle();
+}
+  .h{
+      width: 50%;
+      height: 7px;
+      border: 0 none;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: white;
+  }
+  .rect1{
+    height: 60px;
+    width: 600px;
+    background: #72154e;
+    color: white;
+    text-align: center;
+
+}
+.rect2{
+    height: 60px;
+    width: 600px;
+    background: #8d2072;
+    color: white;
+    text-align: center;
+
+}
+.pic{
+    display: flex;
+}
+.imag2{
+    width: 200px;
+    clip-path: circle();
+}
+.rect3{
+    height: 60px;
+    width: 600px;
+    background: #ffcc00;
+    color: white;
+    text-align: center;
+}
+.rect4{
+    height: 60px;
+    width: 600px;
+    background: rgb(197, 197, 197);
+    color: white;
+    text-align: center;
+
+}
+.cpltdiscord{
+    margin-left: 80px;
+}
+  @media(max-width:1023px){
+      body{
+    margin-left: 150px;
+    margin-right: 150px;
+      }
+      .topnav-right {
+        float: right;
+        
+        display: flex;
+        justify-content: space-between;
+      } 
+      .main{
+         margin-left: -40px;
+      }
+      .po{
+          
+          width:600px ;
+      }
+      .chap{
+          margin-left: 140px;
+      }
+      .chpi{
+        margin-left: -150px;
+    }
+   
+    .poi{
+          
+        width:600px ;
+        margin-left: -200px;
+    }
+    .h{
+        width: 100%;
+        height: 7px;
+        border: 0 none;
+        margin-right: auto;
+        margin-left: -80px;
+        background-color: white;
+
+    }
+    .dm{
+        margin-left: -140px;
+    }
+    .kingo{
+        margin-left: 10px;
+    }
+    .imagi{
+        width: 200px;
+        clip-path: circle();
+        margin-left: -150px;
+    }
+    .imag{
+        width: 200px;
+        clip-path: circle();
+        margin-left: 0px;
+    }
+    .rect1{
+       margin-left: -40px;
+    }
+    .rect2{
+        margin-left: -40px;
+     }
+     .rect3{
+        margin-left: -40px;
+     }
+     .rect4{
+        margin-left: -40px;
+     }
+    .imag2{
+        width: 200px;
+        clip-path: circle();
+        margin-left: -40px;
+    }
+    .cpltdiscord{
+        margin-left: -105px;
+    }
+    *{
+        margin: 0;
+    }
+    html{
+        width: 800px;
+    }
+      
+     
+  }    
+     
